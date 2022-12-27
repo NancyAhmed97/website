@@ -1,0 +1,38 @@
+.providers_container h5{
+    color: #45C0BE;
+    font-weight: bold;
+    font-size: 24px;
+}
+.swiper{
+    background-color: #EEF8FF !important;
+    padding: 45px 0;
+    margin-bottom: 120px;
+}
+.swiper-slide{
+background-color: #B6E1DA !important;
+color: #0000 !important;
+width: 150px !important;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 15px !important;
+padding: 15px;
+
+}
+.swiper-wrapper{
+    justify-content: center !important;
+}
+.swiper-slide a p{
+    color: #2F2E41 !important;
+    font-weight: bold;
+    font-size: 16px;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content:url("../../Assets/img/Polygon2.png");
+}
+@media only screen and (max-width: 768px) {
+    .swiper{
+
+        margin-bottom: 60px;
+    }
+}

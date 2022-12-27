@@ -1,0 +1,38 @@
+.gap_section h6 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #45C0BE;
+}
+
+.gap_section p {
+    color: #2F2E41;
+}
+
+.gap_section button {
+    background-image: linear-gradient(#45C0AF, #367877);
+    border-radius: 25px;
+    color: #fff;
+    font-size: 22;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .gap_section {
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+
+    }
+
+    .gap_section img {
+        width: 100% !important;
+        margin-top: 45px;
+    }
+
+    .gap_section div {
+        width: 100% !important;
+    }
+}
